@@ -75,3 +75,31 @@ div{background-color: rgba(25, 55, 200, 0.3);font-size:20px;}
   justify-content: center;
 }
 
+
+footer {
+   background-color:lightgreen;
+  color: black;
+  padding: 20px;
+   text-align: center;
+  font-size:20px;
+}
+.foot {
+  margin: 10px;
+}
+.foot a {
+  color: rgba(22, 34, 254, 1);
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size:40px;
+}
+
+.foot a:hover {
+  background-color:black;
+  color: white; transform: scale(2);
+}
+.foot a:active {
+  background-color: red;
+  transform: scale(1.67);
+}
+
