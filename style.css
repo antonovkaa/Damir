@@ -75,29 +75,64 @@ div{background-color: rgba(25, 55, 200, 0.3);font-size:20px;}
 }
 
 
-<h2>About cats</h2>
-<div class="cat-section">
-  <h2>🐱 Цікаві факти про котів</h2>
-  <p>
-    Коти можуть спати до 20 годин на добу 😴.
-    Вони дуже гнучкі та можуть стрибати у 5 разів вище за свій зріст!
-  </p>
-</div>
-  
-<div class="cat-section2">  
-    <p>
-  👉 Коти можуть “розмовляти” з людьми — вони нявкають спеціально для нас, а між собою майже не нявкають!
-      
-       </p>
-</div>
-<div class="cat-section3">  
-    <p>
-  👉 Коти можуть обертати свої вуха на 180 градусів!
-Це допомагає їм дуже точно визначати, звідки йде звук — навіть якщо він дуже тихий.
-      
-       </p>
-</div>
+h2{color:darkgreen;font-size:75px;text-align:center;}
 
+.cat-section {
+  background-color: #78f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* ефект при наведенні */
+.cat-section:hover {
+  background-color:rgba(25, 55, 200, 0.3);
+    ;
+}
+
+.cat-section:active {
+  background-color: #a0e7e5;
+  transform: scale(1.05);
+}
+
+
+.cat-section2 {
+  background-color: #78f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* ефект при наведенні */
+.cat-section2:hover {
+  background-color:rgba(25, 55, 200, 0.3);
+    ;
+}
+
+.cat-section2:active {
+  background-color: #a0e7e5;
+  transform: scale(1.1);
+}
+.cat-section3 {
+  background-color: #78f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* ефект при наведенні */
+.cat-section3:hover {
+  background-color:rgba(25, 55, 200, 0.3);
+    ;
+}
+
+.cat-section3:active {
+  background-color: #a0e7e5;
+  transform: scale(1.1);
+}
 
 
 
