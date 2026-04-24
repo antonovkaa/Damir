@@ -136,6 +136,62 @@ h2{color:darkgreen;font-size:75px;text-align:center;}
 
 
 
+.container2 {
+display: flex;
+border-radius:15px;margin:35px;
+ justify-content: center;
+
+} 
+
+  .box5 {
+   
+      background-image: url("10.jpg");  
+      background-size: cover;
+      width: 200px;
+      height: 200px;border-radius:15px;
+      margin: 50px;}
+ .box6 {
+   
+      background-image: url("11.jpg");  
+      background-size: cover;
+      width: 200px;border-radius:15px;
+      height: 200px;
+      margin: 50px;}
+ .box7 {
+   
+      background-image: url("12.jpg");  
+      background-size: cover;
+      width: 200px;border-radius:15px;
+      height: 200px;
+      margin: 50px;}
+
+
+ .box8 {
+   
+      background-image: url("13.jpg");  
+      background-size: cover;
+      width: 200px;border-radius:15px;
+      height: 200px;
+      margin: 50px;}
+
+ .box9 {
+   
+      background-image: url("14.jpg");  
+      background-size: cover;
+      width: 200px;border-radius:15px;
+      height: 200px;
+      margin: 50px;}
+
+
+ .box10 {
+   
+      background-image: url("15.jpg");  
+      background-size: cover;
+      width: 200px;border-radius:15px;
+      height: 200px;
+      margin: 50px;}
+
+
 footer {
    background-color:lightgreen;
   color: black;
