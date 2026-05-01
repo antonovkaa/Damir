@@ -296,3 +296,12 @@ position:absolute;font-size:75px;color:darkgreen;font-weight:700;}
   background-color: red;
   transform: scale(1.67);
 }
+
+.cat_area {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 20%;
+  }
