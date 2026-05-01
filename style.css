@@ -215,6 +215,83 @@ footer {
   background-color:black;
   color: white; transform: scale(2);
 }
+
+
+
+.cat { 
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Head */
+  .head {
+    width: 170px;
+    height: 200px;
+    background: #ffcc99;
+    border-radius: 50%;top:100px;
+    position: relative;
+  }
+
+  /* Ears (outer) */
+  .ear {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -40px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #ffcc99;
+  }
+
+  .ear.left {
+    left: 20px;
+    transform: rotate(-20deg);
+  }
+
+  .ear.right {
+    right: 20px;
+    transform: rotate(20deg);
+  }
+
+
+.nose {position: absolute;width:20px;height:35px;background-color:orange;top:90px;left:75px;border-radius:50%;}
+
+.mouth {position: absolute;width:10px;height:20px;background-color:black;top:150px;left:80px;border-radius:50%;}
+.eye.left {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 45px;
+}.inner-ear {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid silver;
+  }
+
+.eye.right {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 115px;
+}
+
+
+
+.text
+{top:100px;left:200px;
+position:absolute;font-size:75px;color:darkgreen;font-weight:700;}
 .foot a:active {
   background-color: red;
   transform: scale(1.67);
